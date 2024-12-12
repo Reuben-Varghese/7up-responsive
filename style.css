@@ -103,7 +103,7 @@ body{
 
 @media(max-width:767px)
 
-{.sub-div{
+{.content{
     background-color: #00ae44;
     position: absolute;
     top: 107px;
