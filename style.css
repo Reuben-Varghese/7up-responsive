@@ -1,0 +1,512 @@
+
+
+body{
+    height:100%;
+}
+
+.head{
+    background-color: rgb(247, 154, 131);
+    height: 115px;
+    display: flex;
+    z-index: 2;
+    width: 100%;
+    
+}
+.up-img{
+    width: 108px;
+    position: fixed;
+    top: 19px;
+    left: 15px;
+}
+.head1{
+    width: 50%;
+}
+.head2{
+    width: 50%;
+   float: right;
+}
+.icons{
+    display: flex;
+
+    width: 0px;
+    height: 31px;
+   
+}
+
+.main {
+    max-width: 100%;
+    position: relative;
+    top: 115px;
+   
+    
+}
+
+
+.nav-item{
+    padding-right: 29px;
+
+}
+
+.content{
+    position: fixed;
+    right: 247px;
+}
+.togg{
+    position: fixed;
+    right: 26px;
+}
+.togg-style{
+    
+}
+.s-word{
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 2.5vw;
+    font-weight: 900;
+    line-height: 73px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    z-index: 1;
+    width: fit-content;
+}
+.button-banner1{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 29px;
+    font-size: 0.9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffff;
+    text-decoration: none;
+   
+}
+.s-word-dup{
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 2.5vw;
+    font-weight: 900;
+    line-height: 73px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    z-index: 1;
+    width: fit-content;
+
+}
+.main-img2-dup{
+    max-width:100%;
+}
+.main-img3-dup{
+    max-width:100%;
+}
+
+
+@media(max-width:767px)
+
+{.content{
+    background-color: #00ae44;
+    position: absolute;
+    top: 107px;
+    width: 767px;
+    height: 148px;
+    right: -408px;
+        text-align: center;
+}.icons{
+    
+    position: absolute;
+    top: 113px;
+    width: 735px;
+    left: 283px;
+    text-align: center;
+}
+
+}
+
+
+@media(max-width:767px) /* image changing */ 
+{
+.main{
+    display: none;
+}
+.s-word{
+    display: none;
+}
+}
+    
+
+@media(min-width:767px){
+    .main-dup{
+        display:none;
+    }
+    .s-word-dup{
+        display:none;
+    }   
+  
+}
+
+.main-dup{
+    max-width: 100%;
+    position: relative;
+    top: 115px;
+   
+
+}
+
+.img-div2{
+    width:fit-content;
+    position: relative;
+   
+}
+
+.main-img2{
+    width: 100%;
+    position: relative;
+   
+   
+}
+
+.recipes-text-data{
+    width: 465px;
+    background-color: rgb(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 137px 0 43px 0;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.re-word{
+    text-transform: uppercase;
+    font-family: 'korolev';
+    position: absolute;
+    left: 235px;
+    top: 11px;
+    color: white;
+    }
+.re-wordp{
+        text-transform: uppercase;
+        font-family: 'korolev';
+        position: absolute;
+        left: 38%;
+        top: 11px;
+        color: white;
+        }
+.re-word1p{
+            text-transform: uppercase;
+        font-family: 'korolev';
+        position: absolute;
+        left: 155px;
+        top: 11px;
+        color: white;
+        }
+
+.bake-text{
+    color: white;
+    font-family: 'korolev';
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: -1px 25px;
+    position: absolute;
+    left: 140px;
+    top: 80px;
+    font-size: 18px;
+}
+.bake-textp{
+    color: white;
+    font-family: 'korolev';
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: -1px 25px;
+    position: absolute;
+    left: 54px;
+    top: 80px;
+    font-size: 18px;
+}
+.bake-text1p{
+    color: white;
+    font-family: 'korolev';
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: -1px 25px;
+    position: absolute;
+    left: 54px;
+    top: 80px;
+    font-size: 18px;
+}
+.button-banner3{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 19px;
+    font-family: 'korolev';
+    position: absolute;
+    left: 165px;
+    top: 116px;
+    text-decoration: none;
+}
+.button-banner3p{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 19px;
+    font-family: 'korolev';
+    position: absolute;
+    left: 159px;
+    top: 116px;
+    text-decoration: none;
+}
+.button-banner4p{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 19px;
+    font-family: 'korolev';
+    position: absolute;
+    left: 200px;
+    top: 116px;
+    text-decoration: none;
+}
+.padding_zero{
+    padding: 0%;
+}
+
+@media(max-width:767px) /* image changing */ 
+{
+.img-div2{
+    display: none;
+}
+.recipes-text-data{
+    display: none;
+}
+}
+
+@media(min-width:767px){
+    .img-div2-dup{
+        display:none;
+    }
+    .recipes-text-data2{
+        display:none;
+    }   
+}
+.img-div2-dup{
+    max-width: 100%;
+    position: relative;
+    top: 116px;
+}
+
+
+.recipes-text-data2{
+    width: 100%;
+    background-color: rgb(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 137px 0 43px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.recipes-text-data3{
+    width: 100%;
+    background-color: rgb(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 137px 0 43px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+.img-div3{
+    width:100%;
+    position: relative;
+   
+}
+
+.main-img3{
+    width: 100%;
+    position: relative;
+   
+   
+}
+
+.recipes-text-data{
+    width: 630px;
+    background-color: rgb(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 137px 0 43px 0;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.re-word1{
+    text-transform: uppercase;
+    font-family: 'korolev';
+    position: absolute;
+    left: 165px;
+    top: 11px;
+    color: white;
+    }
+
+.bake-text1{
+    color: white;
+    font-family: 'korolev';
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: -1px 25px;
+    position: absolute;
+    left: 76px;
+    top: 80px;
+    font-size: 18px;
+}
+
+.button-banner3{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 19px;
+    font-family: 'korolev';
+    position: absolute;
+    left: 235px;
+    top: 116px;
+    text-decoration: none;
+}
+.padding_zero{
+    padding: 0%;
+}
+
+@media(max-width:767px) /* image changing */ 
+{
+.img-div3{
+    display: none;
+}
+.recipes-text-data{
+    display: none;
+}
+}
+
+@media(min-width:767px){
+    .img-div3-dup{
+        display:none;
+    }
+    .recipes-text-data2{
+        display:none;
+    }   
+}
+.img-div3-dup{
+    max-width: 100%;
+    position: relative;
+    top: 116px;
+}
+
+
+.recipes-text-data2{
+    width: 100%;
+    background-color: rgb(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 137px 0 43px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:#3e3e3e;
+    position: relative;
+    bottom: 72px;
+    display: flex ;
+    justify-content: center;
+}
+.last-wors1{
+    position: absolute;
+    left: 343px;
+    color: white;
+    padding: 0px;
+    font-size: 10px;
+}
+.last-wors{
+    position: absolute;
+    color: white;
+    padding: 0px;
+    font-size: 10px;
+}
+.last-wors2{
+    position: relative;
+  
+    top: 30px;
+    color: white;
+    padding: 13px;
+    font-size: 12px;
+}
+.last-wors1{
+    position: relative;
+    top: 30px;
+    left: 1px;
+    color: white;
+    padding: 13px;
+    font-size: 12px;
+}
+
+.last-wors1:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    overflow: hidden;
+}
+.img-div{
+    overflow: hidden;
+}
+
+
+@media(max-width:767px)  
+{
+.footer{
+    display: none;
+}
+
+}
+@media(min-width:767px){
+    .footerdp{
+        display:none;
+    }
+}
+   
+    
+  
+
+
+
+.footerdp{
+    width: 100%;
+    height: auto;
+    background-color:#3e3e3e;
+    position:absolute;
+}
